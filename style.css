@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    background-color: white;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    padding: 1.25rem;
+}
+
+/* Container style*/
+#container {
+    min-height:100vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 16rem;
+    height: 27rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2.5rem;
+}
+
+/*First Card*/
+.card:nth-of-type(1) {
+background-color: hsl(31, 77%, 52%);
+border-bottom-left-radius: 0.3125rem;
+border-top-left-radius: 0.3125rem;
+}
+
+
+
+/*Second Card*/
+.card:nth-of-type(2) {
+background-color: hsl(184, 100%, 22%);
+}
+
+
+
+
+/*Thrid Card*/
+.card:nth-of-type(3) {
+background-color: hsl(179, 100%, 13%);
+border-bottom-right-radius: 0.3125rem;
+border-top-right-radius: 0.3125rem;
+}
+
+.card h2 {
+    font-family: 'Big Shoulders Display', sans-serif; 
+color: hsl(0, 0%, 95%);
+display: inline-block;
+font-size: 1.875rem;
+ }
+
+ .card p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.25rem;
+    font-size: 0.75rem;
+ }
+
+ .btn {
+    padding: 0.75rem 1.625rem;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: #fff;
+    border: none;
+    border-radius: 1.875rem;
+    font-size: 0.75rem;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+   }
+.btn:hover {
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    color: #fff;
+  }
+
+.btn1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn3 {
+    color: hsl(179, 100%, 13%);
+}
